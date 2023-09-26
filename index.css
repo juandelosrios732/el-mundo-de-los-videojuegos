@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+header,
+footer {
+    background-image: url(./imagenes/banner.jpg);
+    color: #FFF5E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+p{
+    text-align: justify;
+    font-size: large;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #EBE4D1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ACERCA DE */
+
+.acerca_de {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    gap: 20px;
+    
+}
+
+/* CONTENIDO */
+
+.contenido {
+    display: flex;
+    gap: 50px;
+}
+
+.contenido_div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.contenido_lista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenido_item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contenido_item_card {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.contenido_item_img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+footer {
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.btn {
+    color: #FFF5E0;
+    background-color: #001f31;
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(110%);
+    transition-duration: 200ms;
+}
